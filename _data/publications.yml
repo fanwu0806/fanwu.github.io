@@ -1,7 +1,7 @@
 main:
 
   - title: A Review of Robotic and Automated Systems in Meat Processing
-    authors: "<strong>Fan Wu*</strong>, Yining Lyu*, Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou†"
+    authors: <strong>Fan Wu</strong>[co-first], Yining Lyu [co-first], Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou*
     conference_short: Frontiers Robotics AI
     page: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
     conference: Frontiers in Robotics and AI, 2025.
@@ -18,7 +18,7 @@ main:
     image: ./assets/img/teaser_example.png
 
   - title: Improved Two-Stage Deep Learning Algorithm and Lightweight YOLOv5n for Classifying Cottonseed Damage
-    authors: "<strong>Fan Wu*</strong>, Weilong He*, Lori Unruh Snyder, Jean Cheng, Lirong Xiang*"
+    authors: "<strong>Fan Wu</strong>[co-first], Weilong He[co-first], Lori Unruh Snyder, Jean Cheng, Lirong Xiang*
     conference_short: CompAg
     conference: Computers and Electronics in Agriculture, 232:110042, 2025.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
