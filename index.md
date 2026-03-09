@@ -4,19 +4,21 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a graduate researcher in the Department of Biological and Agricultural Engineering at 
+[North Carolina State University](https://www.ncsu.edu/).  My research focuses on computer vision and machine learning for 3D perception and robotic manipulation. My current work mainly applies these techniques to agricultural robotics, including automated crop monitoring and robotic harvesting.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **3D Computer Vision:** monocular depth estimation, multi-view 3D reconstruction, and infrared imaging for scene understanding
+- **Agricultural Robotics:** autonomous harvesting and robotic manipulation
+- **Machine Learning for Agriculture:** vision-based phenotyping and crop monitoring
 
-## News
+## Education
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- \- **North Carolina State University**, Raleigh, USA  
+    *M.S. in Biological and Agricultural Engineering (Full Scholarship)*, 2024–2026
+- \- **Zhejiang University**, Hangzhou, China  
+    *B.S. in Statistics & B.E. in Agricultural Engineering*, 2019–2024
 
 ## Selected Projects
 
