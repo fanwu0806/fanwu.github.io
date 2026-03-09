@@ -22,7 +22,7 @@ I am a Ph.D. student at ...
 
 {% include projects.html %}
 
-## Publications
+## Selected Publications
 
 {% include publications.md %}
 
