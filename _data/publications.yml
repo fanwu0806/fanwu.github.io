@@ -17,7 +17,7 @@ main:
     image: ./assets/img/teaser_example.png
 
   - title: Improved Two-Stage Deep Learning Algorithm and Lightweight YOLOv5n for Classifying Cottonseed Damage
-    authors: "<strong>Fan Wu</strong>[co-first], Weilong He[co-first], Lori Unruh Snyder, Jean Cheng, Lirong Xiang*
+    authors: <strong>Fan Wu</strong>[co-first], Weilong He[co-first], Lori Unruh Snyder, Jean Cheng, Lirong Xiang*
     conference_short: CompAg
     conference: Computers and Electronics in Agriculture, 232:110042, 2025.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
