@@ -3,6 +3,7 @@ main:
   - title: A Review of Robotic and Automated Systems in Meat Processing
     authors: <strong>Fan Wu^1</strong>, Yining Lyu^1, Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou*
     conference_short: Frontiers Robotics AI
+    page: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
     conference: Frontiers in Robotics and AI, 2025.
     image: ./assets/img/fa1.png
 
@@ -10,8 +11,7 @@ main:
     authors: <strong>Fan Wu</strong>, Wenqiao Yuan* (*Corresponding author)
     conference_short: ASABE
     conference: 2025 ASABE Annual International Meeting, 2025.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    page: https://elibrary.asabe.org/abstract.asp?aid=55464
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Conference Paper
     image: ./assets/img/teaser_example.png
