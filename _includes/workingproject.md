@@ -6,25 +6,30 @@
 {% for link in site.data.workingproject.main %}
 
 <li>
-<div class="pub-row" style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <div class="col-sm-5 abbr" style="position: relative; padding-right: 20px; padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; max-width: 100%; border-radius: 8px;">
-    {% endif %}
+<div class="pub-row" style="margin-bottom: 40px; max-width: 1000px;">
+
+  {% if link.image %}
+  <div style="margin-bottom: 12px;">
+    <img src="{{ link.image }}" 
+         class="img-fluid z-depth-1" 
+         style="width: 100%; border-radius: 10px;">
+  </div>
+  {% endif %}
+
+  <div class="title" 
+       style="font-size: 1.05rem; font-weight: 600; margin-bottom: 6px;">
+       {{ link.title }}
   </div>
 
-  <div class="col-sm-7" style="position: relative; padding-right: 15px; padding-left: 10px;">
-    <div class="title" style="font-size: 1.35rem; font-weight: 600; line-height: 1.4; margin-bottom: 10px;">
-      {{ link.title }}
-    </div>
-
-    {% if link.notes %}
-    <div class="note" style="font-size: 1rem; line-height: 1.7; color: #444;">
-      {{ link.notes }}
-    </div>
-    {% endif %}
+  {% if link.notes %}
+  <div class="note" 
+       style="font-size: 0.9rem; line-height: 1.5; color: #444;">
+       {{ link.notes }}
   </div>
+  {% endif %}
+
 </div>
+
 </li>
 <br>
 
