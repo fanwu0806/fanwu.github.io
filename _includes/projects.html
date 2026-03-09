@@ -1,6 +1,6 @@
 {% assign sorted_projects = site.projects | sort: "order" %}
 
-<div style="max-width:720px; margin:0 auto;">
+<div style="max-width:500px; margin:0 auto;">
 
 {% for project in sorted_projects %}
   <div style="margin-bottom:55px; text-align:left;">
@@ -19,7 +19,7 @@
            ">
     </a>
 
-    <div style="width:300px; margin-top:12px;">
+    <div style="width:500px; margin-top:12px;">
       <a href="{{ site.baseurl }}{{ project.url }}"
          style="
          color:#1a4b7a;
