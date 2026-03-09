@@ -1,11 +1,12 @@
 main:
 
   - title: A Review of Robotic and Automated Systems in Meat Processing
-    authors: <strong>Fan Wu^1</strong>, Yining Lyu^1, Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou*
+    authors: <strong>Fan Wu*</strong>, Yining Lyu*, Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou†
     conference_short: Frontiers Robotics AI
     page: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
     conference: Frontiers in Robotics and AI, 2025.
     image: ./assets/img/fa1.png
+    notes: *Equal contribution
 
   - title: A Synthetic Vision System for Accurate 3D Mushroom Pose Estimation Using Multi-View RGB-D Fusion
     authors: <strong>Fan Wu</strong>, Wenqiao Yuan* (*Corresponding author)
