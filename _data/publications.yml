@@ -4,7 +4,7 @@ main:
     authors: <strong>Fan Wu</strong>[co-first], Yining Lyu [co-first], Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou*
     conference_short: Frontiers Robotics AI
     conference: Frontiers in Robotics and AI, 2025.
-    page: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
+    source: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
     image: ./assets/img/fa1.png
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
