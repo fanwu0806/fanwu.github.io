@@ -50,3 +50,10 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+
+
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

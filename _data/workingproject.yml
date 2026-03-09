@@ -1,9 +1,0 @@
-main:
-
-  - title: A Review of Robotic and Automated Systems in Meat Processing
-    notes: This work presents a monocular infrared imaging system for time-series phenotyping of mushrooms during cultivation. Based on the extracted morphological traits, mathematical models are developed to characterize and analyze the growth dynamics of individual mushrooms.
-    image: ./assets/img/p1.png
-
-  - title: A Synthetic Vision System for Accurate 3D Mushroom Pose Estimation Using Multi-View RGB-D Fusion
-    notes: We propose MIRGE, a monocular infrared geometry estimation framework that enables perception-driven robotic mushroom harvesting in dark environments. The reconstructed mushroom geometry is used to guide grasp point estimation and motion planning for autonomous harvesting with a UR5e robot.
-    image: ./assets/img/p2.png

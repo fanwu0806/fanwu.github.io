@@ -1,0 +1,25 @@
+{% assign sorted_projects = site.projects | where: "show_on_homepage", true | sort: "order" %}
+
+<div class="publications">
+
+{% for project in sorted_projects %}
+
+<div class="pub-row" style="margin-bottom:32px;text-align:center;">
+
+<a href="{{ project.url }}">
+<img src="{{ project.image }}"
+     class="img-fluid z-depth-1"
+     style="width:100%;max-width:900px;border-radius:8px;">
+</a>
+
+<div class="title" style="margin-top:10px;font-size:1.05rem;font-weight:600;">
+<a href="{{ project.url }}" style="color:inherit;text-decoration:none;">
+{{ project.title }}
+</a>
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
