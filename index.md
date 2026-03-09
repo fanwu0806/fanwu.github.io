@@ -27,6 +27,7 @@ I am a graduate research assistant in the Department of Biological and Agricultu
 
 {% include publications.md %}
 
-## Services
+### Honors and Awards
 
-{% include services.md %}
+{% include award.md %}
+
