@@ -1,57 +1,22 @@
 main:
 
-  - title: A Review of Robotic and Automated Systems in Meat Processing
-    authors: <strong>Fan Wu</strong>[co-first], Yining Lyu [co-first], Qingyu Wang, Guanyu Liu, Yingqi Zhang, Huanyu Jiang, Mingchuan Zhou*
-    conference_short: Frontiers Robotics AI
-    page: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1578318/full
-    conference: Frontiers in Robotics and AI, 2025.
-    image: ./assets/img/fa1.png
+  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+    conference_short: MICCAI
+    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    notes: Early Accept
 
-  - title: A Synthetic Vision System for Accurate 3D Mushroom Pose Estimation Using Multi-View RGB-D Fusion
-    authors: <strong>Fan Wu</strong>, Wenqiao Yuan* (*Corresponding author)
-    conference_short: ASABE
-    conference: 2025 ASABE Annual International Meeting, 2025.
-    page: https://elibrary.asabe.org/abstract.asp?aid=55464
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Conference Paper
-    image: ./assets/img/teaser_example.png
-
-  - title: Improved Two-Stage Deep Learning Algorithm and Lightweight YOLOv5n for Classifying Cottonseed Damage
-    authors: <strong>Fan Wu</strong>[co-first], Weilong He[co-first], Lori Unruh Snyder, Jean Cheng, Lirong Xiang*
-    conference_short: CompAg
-    conference: Computers and Electronics in Agriculture, 232:110042, 2025.
+  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Journal Article
-    image: ./assets/img/teaser_example.png
-
-  - title: Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
-    authors: Zhenghua Zhang, Weilong He, <strong>Fan Wu</strong>, Lina Maria Quesada-Ocampo, Lirong Xiang*
-    conference_short: Frontiers Robotics AI
-    conference: Frontiers in Robotics and AI, 2024.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Journal Article
-    image: ./assets/img/teaser_example.png
-
-  - title: Geometric Based Apple Suction Strategy for Robotic Packaging
-    authors: Zhong Wang, Qingyu Wang, Mingzhao Lou, <strong>Fan Wu</strong>, Mingchuan Zhou*, Yibing Ying
-    conference_short: IJABE
-    conference: International Journal of Agricultural and Biological Engineering, 17(3):12–20, 2024.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Journal Article
-    image: ./assets/img/teaser_example.png
-
-  - title: Eggshell Biometrics for Individual Egg Identification Based on Convolutional Neural Networks
-    authors: Zhonghao Chen, Pengguang He, Yefan He, <strong>Fan Wu</strong>, Xiuqin Rao, Jinming Pan, Hongjian Lin*
-    conference_short: Poultry Science
-    conference: Poultry Science, 102(4):102540, 2023.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Journal Article
+    notes: Oral Presentation
     image: ./assets/img/teaser_example.png
