@@ -607,28 +607,36 @@ footer {
   margin-bottom: 45px;
 }
 
+/* 控制每个 project 的整体宽度 */
 .project-image {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  max-width: 480px;   /* 改这里控制整体宽度 */
+  margin: 0 auto;
   cursor: pointer;
 }
 
+/* 图片填满容器 */
 .project-image img {
   width: 100%;
-  max-width: 480px;
   display: block;
-  margin: 0 auto;
   border-radius: 8px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
 }
 
+/* hover 动效 */
 .project-image:hover img {
   transform: scale(1.015);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   opacity: 0.96;
 }
 
+/* 标题 */
 .project-title {
   margin-top: 12px;
+  max-width: 480px;   /* 与图片宽度一致 */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-title a {
