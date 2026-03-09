@@ -1,14 +1,14 @@
-<div class="publications">
-<ol class="bibliography">
 {% for link in site.data.publications.main %}
 
 <li>
 
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; text-align: center;">
 
     {% if link.image %}
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width:100%;height:auto;">
+      <img src="{{ link.image }}" 
+           class="teaser img-fluid z-depth-1" 
+           style="max-width: 220px; width: 100%; height: auto; border-radius: 6px;">
       
       {% if link.conference_short %}
         <abbr class="badge">{{ link.conference_short }}</abbr>
@@ -17,39 +17,35 @@
 
   </div>
 
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
 
-      <!-- Title -->
       <div class="title">
         <a href="{{ link.page }}" target="_blank">{{ link.title }}</a>
       </div>
     
-      <!-- Authors -->
       <div class="author">{{ link.authors }}</div>
     
-      <!-- Venue -->
       <div class="periodical">
         <em>{{ link.conference }}</em>
       </div>
     
-      <!-- Links -->
       <div class="links">
     
         {% if link.page %}
         <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        Paper Page
+          Paper Page
         </a>
         {% endif %}
     
         {% if link.code %}
         <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        Code
+          Code
         </a>
         {% endif %}
     
         {% if link.bibtex %}
         <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">
-        BibTex
+          BibTex
         </a>
         {% endif %}
     
