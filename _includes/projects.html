@@ -1,10 +1,12 @@
 {% assign sorted_projects = site.projects | sort: "order" %}
 
+<div style="max-width:720px; margin:0 auto;">
+
 {% for project in sorted_projects %}
-  <div style="text-align:center; margin-bottom:45px;">
+  <div style="margin-bottom:55px; text-align:left;">
     
     <a href="{{ site.baseurl }}{{ project.url }}"
-       style="display:block; width:420px; margin:0 auto; text-decoration:none;">
+       style="display:block; width:520px; text-decoration:none;">
        
       <img src="{{ site.baseurl }}{{ project.image }}"
            alt="{{ project.title }}"
@@ -12,24 +14,33 @@
            display:block;
            width:100%;
            border-radius:8px;
-           box-shadow:0 4px 14px rgba(0,0,0,0.08);
+           box-shadow:0 6px 18px rgba(0,0,0,0.10);
            transition:transform 0.25s ease, box-shadow 0.25s ease;
            ">
-           
     </a>
 
-    <div style="width:420px; margin:14px auto 0 auto; text-align:center;">
+    <div style="width:520px; margin-top:12px;">
       <a href="{{ site.baseurl }}{{ project.url }}"
          style="
          color:#1a4b7a;
          text-decoration:none;
-         font-size:1.05rem;
+         font-size:1.08rem;
          font-weight:600;
          line-height:1.4;
          ">
         {{ project.title }}
       </a>
+
+      <div style="
+        margin-top:4px;
+        font-size:0.9rem;
+        color:#666;
+      ">
+        Click to view project details →
+      </div>
     </div>
 
   </div>
 {% endfor %}
+
+</div>
