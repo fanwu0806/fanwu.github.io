@@ -4,21 +4,32 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ link.image }}"
+         class="teaser z-depth-1"
+         style="width:150px;height:100px;object-fit:cover;border-radius:4px;">
+    
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
+    
     {% endif %}
+
   </div>
+
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
 
-      <div class="title"><a href="{{ link.page }}" target="_blank">{{ link.title }}</a></div>
+      <div class="title">
+        <a href="{{ link.page }}" target="_blank">{{ link.title }}</a>
+      </div>
     
       <div class="author">{{ link.authors }}</div>
     
-      <div class="periodical"><em>{{ link.conference }}</em></div>
+      <div class="periodical">
+        <em>{{ link.conference }}</em>
+      </div>
     
     <div class="links">
     
