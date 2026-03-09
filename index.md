@@ -4,8 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a graduate researcher in the Department of Biological and Agricultural Engineering at 
-[North Carolina State University](https://www.ncsu.edu/).  My research focuses on computer vision and machine learning for 3D perception and robotic manipulation. My current work mainly applies these techniques to agricultural robotics, including automated crop monitoring and robotic harvesting.
+I am a graduate research assistant in the Department of Biological and Agricultural Engineering at [North Carolina State University](https://www.ncsu.edu/).  My research focuses on computer vision and machine learning for 3D perception and robotic manipulation. My current work mainly applies these techniques to agricultural robotics, including automated crop monitoring and robotic harvesting.
 
 ## Research Interests
 
