@@ -40,16 +40,6 @@ main:
     notes: Journal Article
     image: ./assets/img/teaser_example.png
 
-  - title: Development of a Bionic Hexapod Robot with Adaptive Gait and Clearance for Enhanced Agricultural Field Scouting
-    authors: Zhenghua Zhang, Weilong He, <strong>Fan Wu</strong>, Lina Maria Quesada-Ocampo, Lirong Xiang* (*Corresponding author)
-    conference_short: ASABE
-    conference: 2024 ASABE Annual International Meeting, Paper No. 2400650, 2024.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Conference Paper
-    image: ./assets/img/teaser_example.png
-
   - title: Geometric Based Apple Suction Strategy for Robotic Packaging
     authors: Zhong Wang, Qingyu Wang, Mingzhao Lou, <strong>Fan Wu</strong>, Mingchuan Zhou*, Yibing Ying (*Corresponding author)
     conference_short: IJABE
