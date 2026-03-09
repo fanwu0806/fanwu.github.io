@@ -47,7 +47,7 @@ main:
     notes: Journal Article
     image: ./assets/img/teaser_example.png
 
-  - title: Eggshell Biometrics for Individual Egg Identification Based on Convolutional Neural Networks
+  - title: Eggshell Biometrics for Individual Egg Identification Based on Convolutional Neural Networks1111
     authors: Zhonghao Chen, Pengguang He, Yefan He, <strong>Fan Wu</strong>, Xiuqin Rao, Jinming Pan, Hongjian Lin*
     conference_short: Poultry Science
     conference: Poultry Science, 102(4):102540, 2023.
