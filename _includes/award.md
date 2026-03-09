@@ -11,14 +11,10 @@
 </li>
 
 <li style="display:flex; justify-content:space-between;">
-<span>Outstanding Student of Zhejiang University</span>
-<span>Oct. 2022</span>
+<span>Outstanding Graduate of Zhejiang University</span>
+<span>Oct. 2023</span>
 </li>
 
-<li style="display:flex; justify-content:space-between;">
-<span>Kangerda Scholarship</span>
-<span>Oct. 2022</span>
-</li>
 
 <li style="display:flex; justify-content:space-between;">
 <span>Best Overall in the Standard Division of the 2021 ASABE Robotics Competition</span>
@@ -30,10 +26,6 @@
 <span>May. 2021</span>
 </li>
 
-<li style="display:flex; justify-content:space-between;">
-<span>Third Prize of Zhejiang College Students Physics Innovation Competition</span>
-<span>Dec. 2020</span>
-</li>
 
 <li style="display:flex; justify-content:space-between;">
 <span>Special Prize of 2020 China Agricultural Robot Competition</span>
