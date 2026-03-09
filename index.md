@@ -15,9 +15,9 @@ I am a graduate researcher in the Department of Biological and Agricultural Engi
 
 ## Education
 
-- \- **North Carolina State University**, Raleigh, USA  
+- **North Carolina State University**, Raleigh, USA  
     *M.S. in Biological and Agricultural Engineering (Full Scholarship)*, 2024–2026
-- \- **Zhejiang University**, Hangzhou, China  
+- **Zhejiang University**, Hangzhou, China  
     *B.S. in Statistics & B.E. in Agricultural Engineering*, 2019–2024
 
 ## Selected Projects
