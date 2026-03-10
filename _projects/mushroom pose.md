@@ -10,39 +10,19 @@ excerpt: Monocular infrared geometry estimation for robotic mushroom harvesting 
   <img src="/assets/img/mir3d.png" alt="MIR3D preview"
        style="width:100%; max-width:950px; border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,0.12);">
 </div>
-
 <div style="text-align:center; margin-bottom:28px;">
-  <h1 style="margin-bottom:10px;">MIR3D for Autonomous Robotic Mushroom Harvesting</h1>
-  <p style="font-size:1.08rem; color:#555; max-width:850px; margin:0 auto;">
-    A monocular infrared geometry estimation framework for perception-driven robotic mushroom harvesting
-    in dark cultivation environments.
-  </p>
+  <h1 style="margin-bottom:10px;">Improving Mushroom Pose Estimation with Synthetic Data Scaling and Multi-View Attention Fusion</h1>
 </div>
 
-<div style="text-align:center; margin-bottom:36px;">
-  <a href="#" target="_blank"
-     style="display:inline-block; margin:6px; padding:10px 20px; border-radius:8px; background:#2c5f8a; color:white; text-decoration:none; font-weight:600;">
-     Paper
-  </a>
-  <a href="#" target="_blank"
-     style="display:inline-block; margin:6px; padding:10px 20px; border-radius:8px; background:#2aa198; color:white; text-decoration:none; font-weight:600;">
-     Code
-  </a>
-  <a href="#" target="_blank"
-     style="display:inline-block; margin:6px; padding:10px 20px; border-radius:8px; background:#6c757d; color:white; text-decoration:none; font-weight:600;">
-     Slides
-  </a>
-</div>
 
 ---
 
 ## Overview
 
 <div style="background:#f8fafc; padding:22px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.06); margin-bottom:24px;">
-MIR3D is designed for robotic mushroom harvesting in extremely low-light or no-light cultivation environments.
-Instead of relying on conventional RGB sensing, the framework uses monocular infrared imagery to recover geometry,
-estimate grasp-related structures, and support downstream motion planning for a UR5e robotic harvester.
+Automating mushroom harvesting remains a key challenge due to labor-intensive phenotypic analysis, delicate handling requirements, and the difficulty of obtaining large-scale annotated datasets under low-light, high-humidity environments. This work proposes a synthetic-to-real pipeline for mushroom detection and 3D pose estimation relying on large-scale synthetic data with minimal manual annotation, enabling efficient and damage-free robotic harvesting. After generating synthetic images in blender, a domain adaption method is ultilized to bridge its gap with real images. After that, a transformer-based multiview fusion network, combining CNN visual encoders with camera pose embeddings, predicts key geometric parameters—bottom center, top center, and maximum radius—from four top-view images. This hybrid architecture captures spatial relationships across views while handling occlusion and illumination artifacts. Extensive experiments using both synthetic and real-world datasets demonstrate that our approach achieves millimeter-level pose estimation accuracy, significantly outperforming conventional end-to-end baselines. The resulting system enables precise robotic grasp planning for autonomous mushroom harvesting, offering a scalable solution for data-limited agricultural environments.
 </div>
+
 
 ## Key Highlights
 
