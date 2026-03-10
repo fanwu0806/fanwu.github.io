@@ -59,10 +59,18 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 </div>
 
 <div style="text-align:center; margin:26px 0;">
-  <img src="/assets/img/samogeying.png" alt="MIR3D pipeline"
-       style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
-  <p style="color:#666; margin-top:10px;"><em>Figure: Overall pipeline of the proposed framework.</em></p>
+  <img src="/assets/img/samogeying.png" alt="samogeying"
+       style="width:80%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
+  <p style="color:#666; margin-top:10px;"><em>Figure1: Hardware system overview.</em></p>
 </div>
+
+
+<div style="text-align:center; margin:26px 0;">
+  <img src="/assets/img/samogedata.png" alt="samogedata"
+       style="width:80%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
+  <p style="color:#666; margin-top:10px;"><em>Figure: Real–Synthetic Domain Analysis and Collaborative Training Results. </em></p>
+</div>
+
 
 ---
 
