@@ -19,8 +19,9 @@ order: 2
 ## Overview
 
 <div style="background:#f8fafc; padding:22px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.06); margin-bottom:24px;">
-Automating mushroom harvesting remains a key challenge due to labor-intensive phenotypic analysis, delicate handling requirements, and the difficulty of obtaining large-scale annotated datasets under low-light, high-humidity environments. This work proposes a synthetic-to-real pipeline for mushroom detection and 3D pose estimation relying on large-scale synthetic data with minimal manual annotation, enabling efficient and damage-free robotic harvesting. After generating synthetic images in blender, a domain adaption method is ultilized to bridge its gap with real images. After that, a transformer-based multiview fusion network, combining CNN visual encoders with camera pose embeddings, predicts key geometric parameters—bottom center, top center, and maximum radius—from four top-view images. This hybrid architecture captures spatial relationships across views while handling occlusion and illumination artifacts. Extensive experiments using both synthetic and real-world datasets demonstrate that our approach achieves millimeter-level pose estimation accuracy, significantly outperforming conventional end-to-end baselines. The resulting system enables precise robotic grasp planning for autonomous mushroom harvesting, offering a scalable solution for data-limited agricultural environments.
+Automating mushroom harvesting remains a key challenge due to labor-intensive phenotypic analysis, delicate handling requirements, and the difficulty of obtaining large-scale annotated datasets under low-light, high-humidity environments. This work proposes a synthetic-to-real pipeline for mushroom detection and 3D pose estimation relying on large-scale synthetic data with minimal manual annotation, enabling efficient and damage-free robotic harvesting. After generating synthetic images in blender, a domain adaption method is ultilized to bridge its gap with real images. After that, a transformer-based multiview fusion network, combining lightweight visual encoders with camera pose embeddings, predicts key geometric parameters—bottom center, top center, and maximum radius—from four top-view images. Extensive experiments using both synthetic and real-world datasets demonstrate that our approach achieves millimeter-level pose estimation accuracy, significantly outperforming conventional end-to-end baselines. The resulting system enables precise robotic grasp planning for autonomous mushroom harvesting, offering a scalable solution for data-limited agricultural environments.
 </div>
+
 
 
 ## Key Highlights
@@ -28,59 +29,39 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-bottom:28px;">
 
 <div style="background:white; border:1px solid #e5e7eb; border-radius:12px; padding:18px; box-shadow:0 3px 8px rgba(0,0,0,0.04);">
-  <h4>Infrared Perception</h4>
-  <p style="margin-bottom:0;">Robust perception under dark cultivation conditions without visible illumination.</p>
+  <h4>Synthetic-to-Real Learning</h4>
+  <p style="margin-bottom:0;">Build scalable training data in simulation and transfer it to real mushroom cultivation scenes with reduced annotation effort.</p>
 </div>
 
 <div style="background:white; border:1px solid #e5e7eb; border-radius:12px; padding:18px; box-shadow:0 3px 8px rgba(0,0,0,0.04);">
-  <h4>Geometry Estimation</h4>
-  <p style="margin-bottom:0;">Recover mushroom geometry from a single infrared image for harvesting-oriented analysis.</p>
+  <h4>Multi-View Geometry Estimation</h4>
+  <p style="margin-bottom:0;">Fuse multiple top-view observations and camera poses to estimate grasp-oriented mushroom geometry under occlusion and dense growth.</p>
 </div>
 
 <div style="background:white; border:1px solid #e5e7eb; border-radius:12px; padding:18px; box-shadow:0 3px 8px rgba(0,0,0,0.04);">
-  <h4>Robotic Integration</h4>
-  <p style="margin-bottom:0;">Predict grasp points and support motion planning for UR5e-based autonomous harvesting.</p>
+  <h4>Robotic Harvesting Interface</h4>
+  <p style="margin-bottom:0;">Provide pose-related outputs that can support downstream grasp planning and autonomous harvesting with robotic systems.</p>
 </div>
 
-</div>
+
+
 
 ## Method Pipeline
 
-<div style="background:#ffffff; padding:22px; border-radius:12px; border:1px solid #e5e7eb; box-shadow:0 3px 10px rgba(0,0,0,0.05); margin-bottom:24px;">
-<ol style="margin-bottom:0;">
-  <li>Monocular infrared image acquisition in dark environments</li>
-  <li>Geometry-aware perception and structure estimation</li>
-  <li>Grasp point prediction for harvesting targets</li>
-  <li>Motion planning for UR5e robotic execution</li>
-</ol>
-</div>
+1. **Synthetic scene generation:** Realistic mushroom plantation scenes are created in Blender with controllable variations in shape, pose, density, and illumination.
+2. **Domain adaptation:** Synthetic images are translated toward real visual appearance to narrow the sim-to-real gap.
+3. **Multi-view acquisition:** Multiple top-view images and corresponding camera pose information are collected for each mushroom instance.
+4. **Pose estimation:** A learning-based fusion model predicts key geometric attributes required for harvesting-oriented perception.
+
+
 
 <div style="text-align:center; margin:26px 0;">
-  <img src="/assets/img/mir3d_pipeline.png" alt="MIR3D pipeline"
+  <img src="/assets/img/samogeying.png" alt="MIR3D pipeline"
        style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
   <p style="color:#666; margin-top:10px;"><em>Figure: Overall pipeline of MIR3D.</em></p>
 </div>
 
+
 ## Results
 
-<div style="background:#f8fafc; padding:22px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.06); margin-bottom:24px;">
-This section can present qualitative reconstruction examples, robotic grasping cases,
-quantitative evaluation tables, and harvesting demonstrations.
-</div>
-
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:18px; margin-bottom:28px;">
-  <img src="/assets/img/result1.png" style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
-  <img src="/assets/img/result2.png" style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
-</div>
-
-## Demo Video
-
-<div style="text-align:center; margin-bottom:28px;">
-  <iframe width="840" height="472"
-    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-    title="MIR3D Demo Video"
-    frameborder="0"
-    allowfullscreen
-    style="max-width:100%; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.12);">
-  </iframe>
-</div>
+Preliminary experiments show that the proposed framework improves pose estimation performance compared with simpler baselines, while maintaining strong potential for robotic harvesting applications. In particular, multi-view fusion and synthetic data scaling both contribute to better robustness in real cultivation scenes. These results suggest that simulation-driven perception is a practical direction for scalable mushroom harvesting automation.
