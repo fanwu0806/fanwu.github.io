@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MIR3D for Autonomous Robotic Mushroom Harvesting
-image: /assets/img/mir3d.png
+image: /assets/img/synmu.png
 order: 1
 excerpt: Monocular infrared geometry estimation for robotic mushroom harvesting in dark environments.
 ---
