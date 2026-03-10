@@ -6,7 +6,7 @@ order: 2
 ---
 
 <div style="text-align:center; margin-top:20px; margin-bottom:30px;">
-  <img src="/assets/img/mir3d.png" alt="MIR3D preview"
+  <img src="/assets/img/synmu.png" alt="Multiview mushroom pose estimation"
        style="width:100%; max-width:950px; border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,0.12);">
 </div>
 <div style="text-align:center; margin-bottom:28px;">
@@ -48,11 +48,12 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 
 ## Method Pipeline
 
+<div style="background:#f8fafc; padding:22px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.06); margin-bottom:24px;">
 1. **Synthetic scene generation:** Realistic mushroom plantation scenes are created in Blender with controllable variations in shape, pose, density, and illumination.
 2. **Domain adaptation:** Synthetic images are translated toward real visual appearance to narrow the sim-to-real gap.
 3. **Multi-view acquisition:** Multiple top-view images and corresponding camera pose information are collected for each mushroom instance.
 4. **Pose estimation:** A learning-based fusion model predicts key geometric attributes required for harvesting-oriented perception.
-
+</div>
 
 
 <div style="text-align:center; margin:26px 0;">
