@@ -23,6 +23,7 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 </div>
 
 
+---
 
 ## Key Highlights
 
@@ -45,6 +46,8 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 
 
 
+---
+
 
 ## Method Pipeline
 
@@ -61,6 +64,9 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
        style="width:100%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
   <p style="color:#666; margin-top:10px;"><em>Figure: Overall pipeline of MIR3D.</em></p>
 </div>
+
+
+---
 
 
 ## Results
