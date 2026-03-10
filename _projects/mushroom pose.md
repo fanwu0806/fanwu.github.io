@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Improving Mushroom Pose Estimation with Synthetic Data Scaling and Multi-View Attention Fusion
+title: MIR3D for Autonomous Robotic Mushroom Harvesting
 image: /assets/img/synmu.png
-order: 2
+order: 1
+excerpt: Monocular infrared geometry estimation for robotic mushroom harvesting in dark environments.
 ---
 
 <div style="text-align:center; margin-top:20px; margin-bottom:30px;">
