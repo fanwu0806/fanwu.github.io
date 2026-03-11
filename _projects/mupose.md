@@ -61,14 +61,14 @@ Automating mushroom harvesting remains a key challenge due to labor-intensive ph
 <div style="text-align:center; margin:26px 0;">
   <img src="/assets/img/samogeying2.png" alt="samogeying"
        style="width:80%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
-  <p style="color:#666; margin-top:10px;"><em>Figure1: Hardware system overview.</em></p>
+  <p style="color:#666; margin-top:10px;"><em>Figure1: Overview of the robotic multi-view imaging platform used for mushroom data acquisition. The system integrates a UR5e robotic arm, multi-view RGB cameras, Raspberry Pi control unit, and LED illumination to capture structured observations of mushroom cultivation scenes.</em></p>
 </div>
 
 
 <div style="text-align:center; margin:26px 0;">
   <img src="/assets/img/samogedata.png" alt="samogedata"
        style="width:80%; max-width:900px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
-  <p style="color:#666; margin-top:10px;"><em>Figure: Real–Synthetic Domain Analysis and Collaborative Training Results. </em></p>
+  <p style="color:#666; margin-top:10px;"><em>Figure2: Analysis of the synthetic-to-real training pipeline. Top: training error convergence and error decomposition across different pose parameters. Bottom: feature distribution visualization using t-SNE and PCA density alignment, illustrating the relationship between synthetic and real domains. </em></p>
 </div>
 
 
