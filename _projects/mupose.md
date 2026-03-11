@@ -6,7 +6,7 @@ order: 2
 ---
 
 <div style="text-align:center; margin-top:20px; margin-bottom:30px;">
-  <img src="/assets/img/synmu.png" alt="Multiview mushroom pose estimation"
+  <img src="/assets/img/synmu2.png" alt="Multiview mushroom pose estimation"
        style="width:100%; max-width:950px; border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,0.12);">
 </div>
 <div style="text-align:center; margin-bottom:28px;">
