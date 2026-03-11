@@ -5,10 +5,6 @@ image: /assets/img/mir3d.png
 order: 1
 ---
 
-<div style="text-align:center; margin-top:20px; margin-bottom:30px;">
-  <img src="/assets/img/mir3d.png" alt="samoge"
-       style="width:100%; max-width:950px; border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,0.12);">
-</div>
 <div style="text-align:center; margin-bottom:28px;">
   <h1 style="margin-bottom:10px;">Monocular infrared imaging for high-throughput time-series phenotyping and instance-level growth modeling of mushrooms</h1>
 </div>
