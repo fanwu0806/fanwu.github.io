@@ -21,7 +21,7 @@ This project presents a monocular infrared-based pipeline for mushroom growth mo
 
 The framework further analyzes time-series observations to model mushroom growth dynamics and extract biologically meaningful growth curves. Experimental results demonstrate that the proposed approach enables reliable phenotyping and geometry estimation for mushrooms under challenging dark cultivation environments, providing a scalable solution for automated mushroom monitoring.
 </div>
-</div>
+
 
 ---
 
@@ -95,7 +95,7 @@ The framework further analyzes time-series observations to model mushroom growth
 <div style="text-align:center; margin:26px 0;">
   <img src="/assets/img/single_mushroom_growth_curve.png" 
        alt="Single-Mushroom Growth Curve"
-       style="width:88%; max-width:1100px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
+       style="width:64%; max-width:1100px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.10);">
   <p style="color:#666; margin-top:10px; line-height:1.6;">
     <em>Figure 3: Time-series growth analysis of a single mushroom, showing the evolution of projected area, cap surface area, and height across developmental stages.</em>
   </p>
