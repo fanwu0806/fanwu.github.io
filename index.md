@@ -15,7 +15,7 @@ I am a graduate research assistant in the Department of Biological and Agricultu
 ## Education
 
 - **North Carolina State University**, Raleigh, USA  
-    *M.S. in Biological and Agricultural Engineering (Full Scholarship)*, 2024–2026
+    *Ph.D. student in Biological and Agricultural Engineering*, since 2024
 - **Zhejiang University**, Hangzhou, China  
     *B.S. in Statistics & B.E. in Agricultural Engineering*, 2019–2024
 
