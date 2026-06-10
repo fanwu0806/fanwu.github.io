@@ -19,9 +19,15 @@ I am a graduate research assistant in the Department of Biological and Agricultu
 - **Zhejiang University**, Hangzhou, China  
     *B.S. in Statistics & B.E. in Agricultural Engineering*, 2019–2024
 
+## Selected Projects
+
+{% include projects.html %}
 
 ## Selected Publications
 
 {% include publications.md %}
 
+### Honors and Awards
+
+{% include award.md %}
 
