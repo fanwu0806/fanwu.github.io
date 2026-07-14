@@ -1,6 +1,6 @@
 # Basic Information 
 title: Fan Wu
-position: Master Student
+position: Ph.D. Student
 affiliation: North Carolina State University
 email: fwu26@ncsu.edu
 
@@ -13,9 +13,9 @@ baseurl: ""
 
 # Links 
 google_scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=N1ydODMAAAAJ
-cv_link: assets/files/curriculum_vitae.pdf
+# cv_link: assets/files/curriculum_vitae.pdf
 # github_link: https://github.com/
-# linkedin: https://www.linkedin.com/
+linkedin: https://www.linkedin.com/in/fan-wu-70537a2a2?utm_source=share_via&utm_content=profile&utm_medium=member_ios
 # twitter: https://twitter.com/
 
 # Images
